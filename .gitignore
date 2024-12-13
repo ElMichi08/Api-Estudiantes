@@ -22,3 +22,13 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Ignorar el archivo específico
+api-estudiantes-b6c22-firebase-adminsdk-ss42p-7de53a67e3.json
+
+# Ignorar todos los archivos firebase-adminsdk.json
+*firebase-adminsdk*.json
+
+# Ignorar en cualquier ubicación
+**/*firebase-adminsdk*.json
+
